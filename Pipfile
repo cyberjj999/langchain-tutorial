@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+beautifulsoup4 = "*"
+langchain = "*"
+faiss-cpu = "*"
+openai = "*"
+langchainhub = "*"
+langchain-openai = "*"
+langserve = {version = "*", extras = ["all"]}
+python-dotenv = "*"
+langchain-core = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
